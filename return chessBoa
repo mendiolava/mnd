@@ -1,0 +1,7 @@
+	for (int col = 0; col < MAX_COL; col++) {
+		if (chessBoard[0][col] != ' '
+			&& chessBoard[0][col] == chessBoard[1][col]
+			&& chessBoard[0][col] == chessBoard[2][col]) {
+			return chessBoard[0][col];
+		}
+	}
